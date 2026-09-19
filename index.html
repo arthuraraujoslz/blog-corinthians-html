@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog do Coringão - Notícias e Fiel Torcedor</title>
+</head>
+<body>
+  <header>
+    <h1>Blog do Coringão</h1>
+
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#boas-vindas">Boas-Vindas à Fiel</a></li>
+        <li><a href="#manto-sagrado">Comprar Nova Camisa</a></li>
+        <li><a href="#fiel-torcedor">Assinar Fiel Torcedor</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article id="boas-vindas">
+      <h2>Seja bem-vindo ao Blog do Coringão!</h2>
+      <p>
+        Este é o espaço oficial da Fiel Torcida para acompanhar as novidades do Timão. 
+        Aqui encontras as últimas atualizações, informações sobre ingressos, bastidores 
+        e tudo sobre o Sport Club Corinthians Paulista.
+      </p>
+      <img
+        src="https://i.pinimg.com/474x/3a/95/f8/3a95f86647562ea39645b14c8dbdb209.jpg"
+        alt="Escudo oficial do Sport Club Corinthians Paulista"
+      >
+    </article>
+
+    <article id="manto-sagrado">
+      <h2>Novo Manto Sagrado: Garanta a sua camisa da temporada</h2>
+      <p>
+        Já está disponível o novo uniforme oficial do Corinthians para a temporada! 
+        Celebre a tradição e veste o manto com o orgulho de ser corinthiano. 
+        Adquire a tua nas lojas oficiais e garante descontos exclusivos sendo Fiel Torcedor.
+      </p>
+      <img
+        src="https://imgnike-a.akamaihd.net/branding/futebol/camisas/corinthians/2026/cdp-corinthians-camisa-tobias/assets/img/desk/HERO_CORINTHIANS_GARRO_DT_FA26.jpg"
+        alt="Lançamento do novo manto oficial do Corinthians com Rodrigo Garro"
+      >
+    </article>
+  </main>
+
+  <aside id="fiel-torcedor">
+    <form method="get">
+      <fieldset>
+        <legend>Seja um Fiel Torcedor - Cadastre-se</legend>
+
+        <p>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required minlength="3">
+        </p>
+
+        <p>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </p>
+
+        <p>
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" name="idade" required min="18" max="120">
+        </p>
+
+        <p>
+          <label for="plano">Plano Fiel Torcedor:</label>
+          <select id="plano" name="plano" required>
+            <option value="">Selecione o seu plano</option>
+            <option value="minha-vida">Plano Minha Vida</option>
+            <option value="minha-historia">Plano Minha História</option>
+            <option value="meu-amor">Plano Meu Amor</option>
+          </select>
+        </p>
+
+        <p>
+          <input type="checkbox" id="termos" name="termos" required>
+          <label for="termos">Aceito os termos da Fiel Torcida</label>
+        </p>
+
+        <button type="submit">Enviar Cadastro</button>
+      </fieldset>
+    </form>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 Blog do Coringão. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
