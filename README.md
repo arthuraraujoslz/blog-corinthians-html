@@ -1,25 +1,34 @@
-# Blog do Coringão — Estrutura HTML Semântica
+# Blog do Coringão — Desenvolvimento Web
 
-Este repositório contém a entrega da **Semana 01** do projeto de Desenvolvimento Web, focado na construção semântica de um blog em HTML5 com formulário de inscrição nativo.
+Este repositório contém o projeto do **Blog do Coringão**, desenvolvido para a disciplina de Desenvolvimento Web, cobrindo a estrutura HTML5 semântica e a estilização CSS com Flexbox.
 
-## Sobre o Projeto:
+## Sobre o Projeto
 
-O **Blog do Coringão** é um portal acadêmico voltado para a torcida do Corinthians, reunindo notícias, seções de produtos oficiais e um formulário para novos torcedores.
+O **Blog do Coringão** é um portal voltado para a torcida do Corinthians, reunindo notícias, apresentação do novo uniforme oficial e um formulário de inscrição para o Fiel Torcedor.
 
-## Requisitos Atendidos
+## Etapas do Projeto
 
+### Semana 01 — Estrutura HTML Semântica
 - **Estrutura Base:** `<!DOCTYPE html>`, `<html lang="pt-BR">`, `<head>` e `<body>`.
 - **Tags Semânticas:** `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>` e `<footer>`.
-- **Conteúdo Principal:** Artigo de boas-vindas e divulgação do novo uniforme oficial com imagens funcionais.
-- **Formulário de Cadastro (`<aside>`):** 
-- Envio via método `GET`.
-- Agrupamento semântico com `<fieldset>` e `<legend>`.
-- Nome (mínimo 3 caracteres), e-mail (`type="email"`), idade (`min="18"` e `max="120"`).
-- Seleção de plano do Fiel Torcedor (`<select>`) e aceite dos termos (`<input type="checkbox">` obrigatório).
-- Vínculos corretos entre `<label>` e `<input>` via atributos `for` e `id`.
+- **Formulário NATIVO (`<aside>`):** 
+  - Submissão via método `GET`.
+  - Agrupamento com `<fieldset>` e `<legend>`.
+  - Validações nativas de `minlength`, `type="email"`, `min` e `max` para idade.
+  - Seleção de plano do Fiel Torcedor (`<select>`) e aceite de termos (`<input type="checkbox">`).
+  - Associação correta entre `<label>` e campos via atributos `for` e `id`.
 
-## Arquivos do Repositório
+### Semana 02 — Estilização com CSS & Flexbox
+- **Container do Formulário:** Configurado com largura máxima, padding e cor de fundo personalizada.
+- **Layout com Flexbox:** Organização vertical com `display: flex`, `flex-direction: column` e `gap`.
+- **Estilização dos Inputs:** Aplicação de `padding`, `border`, `border-radius` e `font-size` em `<label>`, `<input>` e `<select>`.
+- **Botão Personalizado:** Destaque visual com transição e efeito `button:hover`.
+- **Bónus Flexbox:** Layout responsivo lado a lado para os campos de Nome e E-mail utilizando `justify-content: space-between`.
 
-- `index.html`: Código-fonte completo e consolidado da aplicação.
+## Arquivo do Repositório
+
+- `index.html`: Código-fonte completo consolidado com HTML5 semântico e CSS3 incorporado.
+
+
 
 
